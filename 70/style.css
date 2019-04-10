@@ -1,0 +1,17 @@
+.bor {
+  border-bottom: 12px solid;
+  border-image:
+  linear-gradient(
+    to bottom,
+    red,
+    rgba(0, 0, 0, 0)
+  ) 1 100%;
+  /* border-image: linear-gradient(to bottom,
+  #913f0f 33%,
+  #fb7619 33%,
+  #fb7619 66%,
+  #fed700 66%,
+  #fed700 100%
+  ); */
+  color: #261406;
+}
