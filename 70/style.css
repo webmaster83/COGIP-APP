@@ -1,17 +1,69 @@
-.bor {
-  border-bottom: 12px solid;
-  border-image:
-  linear-gradient(
+body{
+  color: #fef9d1;
+  background-color: #682616;
+  margin: 0;
+  font-family: 'Fascinate Inline', cursive;
+}
+.contain {
+  border-radius: 5.5%;
+  color: white;
+  margin: 3%;
+}
+.contain::before {
+  content: '';
+  position: absolute;
+  top: 0; right: 3%; bottom: 0; left: 3%;
+  z-index: -1;
+  margin: border;
+  border-radius: inherit;
+  background: linear-gradient(
     to bottom,
-    red,
-    rgba(0, 0, 0, 0)
-  ) 1 100%;
-  /* border-image: linear-gradient(to bottom,
-  #913f0f 33%,
-  #fb7619 33%,
-  #fb7619 66%,
-  #fed700 66%,
-  #fed700 100%
-  ); */
-  color: #261406;
+    #fed700 0%,
+    #fed700 1%,
+    #fb7619 1%,
+    #fb7619 2%,
+    #913f0f 2%,
+    #913f0f 3%,
+    #682616 3%,
+    #682616 97%,
+    #913f0f 97%,
+    #913f0f 98%,
+    #fb7619 98%,
+    #fb7619 99%,
+    #fed700 99%,
+    #fed700 100%
+  );
+}
+.contain::after {
+  content: '';
+  position: absolute;
+  top: 3%; right: 0; bottom: 3%; left: 0;
+  z-index: -2;
+  margin: border;
+  border-radius: inherit;
+  background: linear-gradient(
+    to right,
+    #fed700 0%,
+    #fed700 1%,
+    #fb7619 1%,
+    #fb7619 2%,
+    #913f0f 2%,
+    #913f0f 3%,
+    #682616 3%,
+    #682616 97%,
+    #913f0f 97%,
+    #913f0f 98%,
+    #fb7619 98%,
+    #fb7619 99%,
+    #fed700 99%,
+    #fed700 100%
+  );
+}
+td{
+  text-align: center;
+}
+input{
+  border-radius: 1000px;
+  border-style: none;
+  padding: 5px;
 }
