@@ -8,7 +8,7 @@ When: **April 2019**
 
 website: https://github.com/webmaster83/COGIP-APP
 
-Status: **Done**
+Status: **NOT FINISH**
 
 ## Languages
 * __HTML/CSS/PHP/My_SQL/SQL/PhPMyadmin
